@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-image: url(https://t4.ftcdn.net/jpg/02/00/99/09/360_F_200990953_ZUQhJDEQGCmJ10H9mLq8XjEckDQQjau9.jpg);
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1000px;
+    height: 550px;
+    border: 5px solid black;
+    object-fit: fill;
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+ 
+}
+
+p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: yellow;
+    font-size: 18px;
+}
+
+.titolo{
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    font-weight: bold;
+}
+
+.row{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
